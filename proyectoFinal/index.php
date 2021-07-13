@@ -23,14 +23,14 @@
 	<meta name="author" content="Carmen Carretero">
 	<meta name="copyright" content="">
 	<meta name="contact" content="carmacb@alumnos.cei.es">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="description" content="Currículum y portfolio de Carmen María Carretero Báez">
+	<meta name="keywords" content="Frontend,Backend,Fullstack,Diseño y desarrollo Web,Network">
 	<meta name="robots" content="NoIndex, NoFollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
 
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 
 	<link rel="icon" type="icon/png" href="favicon.png">
 
@@ -103,15 +103,15 @@
 			<div class="row">
 				<div class="col-lg-5 px-5 px-md-3 d-flex flex-column align-items-center d-lg-block d-md-flex flex-md-row">			
 						<div class="mi-foto">
-							<img class="img-fluid mb-5 " src="rsc/img/MiFoto.jpg" alt="Carmen María Carretero Báez">
+						    <img class="img-fluid radio mb-5 " src="rsc/img/MiFoto.jpg" alt="Carmen María Carretero Báez">
 						</div>					
-						<div class="ms-md-4">
+						<div class="ms-md-4 mb-3 mb-md-0">
 							<p><strong>Nombre: </strong>Carmen María</p>
 							<p><strong>Apellidos: </strong>Carretero Báez</p>
 							<p><strong>Email: </strong><a href="mailto:contacto@carmencarreterocei.es">contacto@carmencarreterocei.es</a></p>
 							<p><strong>Tlf: </strong>652 423 419</p>
 							<p><strong>Lugar de residencia: </strong>Huelva</p>
-							<p><strong>CV en PDF</strong><a href="rsc/files/CV CMCB 05-06-2019 BajaResol2.pdf" download="CV-CarmenMaríaCarreteroBáez" target="blank"><i id="descarga" class="naranja fas fa-download ms-4"></i></a></p>
+							<p><strong>CV en PDF</strong><a href="rsc/files/CV carmencarretero.pdf" download="CV-CarmenMaríaCarreteroBáez" target="blank"><i id="descarga" class="naranja fas fa-download ms-4"></i></a></p>
 						</div>						
 				</div>
 				<div class="col-lg-7 px-4">
@@ -122,9 +122,9 @@
 
 						<p>A día de hoy estoy en la recta final del máster y ya he empezado ha hacer algún trabajo por cuenta propia para seguir aprendiendo y ganar experiencia, aunque mi objetivo es poder aumentar mis conocimientos haciendo prácticas de <strong>Frontend o Fullstack</strong> en alguna empresa. Ya cuento con una web donde ofrezco mis servicios: <a href="https://carmencarretero.com/" target="blank">www.carmencarretero.com</a></p>
 
-						<p>Para no hablar de mí solo a nivel profesional, terminaré mi presentación dando algún dato más personal como pueden ser mis hobbies.</p>
+						<p>Siguiendo con algo más personal, os diré que mi mayor hobbie es el deporte y que soy muy amiga de la vida saludable en general. Hablando claro, soy una de esas personas que están tan “locas” como para levantarse a las 6 de la mañana para hacer deporte <i class="fas fa-smile-beam naranja"></i>.</p>
 
-						<p>Mi mayor Hobbie desde siempre ha sido el mundo del deporte y soy amiga de la vida saludable en general. Actualmente hago mis rutinas en el gimnasio para tratar de mantenerme en forma y además juego al pádel.</p>
+						<p>Lo que suelo hacer a diario es una rutina en el gimnasio para mantenerme en forma y por supuesto mis ratitos de pádel para soltar energía.</p>
 
 						<p>A partir de aquí os dejo con mi CV y espero que no os resulte muy aburrido.</p>
 			
@@ -140,6 +140,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<h3 class="azul-primario text-center">WEB</h3>
+					<!--La clase WOW (pertenece a la librería wow.js) que aparece en todas las barras de progreso es lo que hace que la animación se ejecute al hacer scroll-->
 					<div class="d-flex justify-content-center justify-content-lg-start mt-5">
 						<img class="img-fluid" src="rsc/img/logo-html.png" alt="logo html">
 						<div class="progress mt-3 ms-3">
@@ -242,18 +243,18 @@
 					<h3 class="azul-primario text-center">OTRAS COMPETENCIAS</h3>
 				</div>				
 			</div>
-			<div class="row mx-5 mx-lg-0 mt-5">
+			<div class="row mx-3 mx-lg-0 mt-5">
 				<div class="col-lg-4 d-flex align-items-center">
 					<img class="img-fluid iconos-competencias" src="rsc/img/metodologias.png" alt="icono metodologías">
 					<p class="mt-3 ms-3">Metodologías ágiles: Design Thinking, Design Sprint y Kanban.</p>				
 				</div>
 				<div class="col-lg-4 d-flex align-items-center">
 					<img class="img-fluid iconos-competencias" src="rsc/img/proyectos.png" alt="icono proyectos">
-					<p class="mt-3 ms-3">Metodologías ágiles: Design Thinking, Design Sprint y Kanban.</p>				
+					<p class="mt-3 ms-3">Gestión de Proyectos.</p>				
 				</div>
 				<div class="col-lg-4 d-flex align-items-center">
 					<img class="img-fluid iconos-competencias" src="rsc/img/equipo.png" alt="icono competencias">
-					<p class="mt-3 ms-3">Metodologías ágiles: Design Thinking, Design Sprint y Kanban.</p>				
+					<p class="mt-3 ms-3">Trabajo en equipo.</p>				
 				</div>				
 			</div>			
 		</div>
@@ -743,10 +744,10 @@
 					 <div class="carousel-item active">
 					   	<div class="container">
 						    <div class="row margen-portfolio">
-						    	<div class="col-lg-5 ps-md-5 d-flex flex-column justify-content-center">
+						    	<div class="col-lg-5 pb-2 pb-md-0 ps-md-5 d-flex flex-column justify-content-center">
 						    		<h3 class="azul-primario">Servicios de Diseño Web e Imagen de Marca</h3>
 						    		<p class="azul-primario parrafo-grande">Wordpress</p>
-						    		<a class="azul-primario" href="https://carmencarretero.com" target="blank">www.carmencarretero.com</a>
+						    		<a class="azul-primario pb-4 pb-md-0" href="https://carmencarretero.com" target="blank">www.carmencarretero.com</a>
 						    	</div>
 						    	<div class="col-lg-7 d-flex justify-content-center">
 						    		<img src="rsc/img/portfolioWebCarmenTrans.png" class="img-fluid foto-portfolio" alt="Portfolio Carmencarretero.com">
@@ -760,7 +761,8 @@
 						    		<div class="col-lg-5 ps-md-5 d-flex flex-column justify-content-center">
 						    			<h3 class="azul-primario">Curriculum y Portfolio Web</h3>
 						    			<p class="azul-primario parrafo-grande">Bootstrap, HTML, CSS y JavaScript</p>
-						    		<a class="azul-primario" href="https://carmencarreterocei.es/cv" target="blank">www.carmencarreterocei.es</a>
+						    		    <a class="azul-primario" href="https://carmencarreterocei.es/CV" target="blank">www.carmencarreterocei.es</a>
+						    	    	<a class="azul-primario" href="https://github.com/CEIWeb/Proyectos-Personales/tree/main/proyectoFinal" target="blank">Ver código</a>
 						    		</div>
 						    		<div class="col-lg-7 d-flex justify-content-center">
 						    			<img src="rsc/img/portfolioCVCarmenTrans.png" class="img-fluid foto-portfolio" alt="Portfolio CV Carmen Carretero">
@@ -820,7 +822,7 @@
 	<footer class="container-fluid">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-11 py-3 d-flex align-items-center justify-content-start flex-wrap">
+				<div class="col-md-11 py-3 d-flex align-items-center justify-content-center justify-content-md-start flex-wrap">
 					<p class="my-0 me-2">Copyright &copy 2021 Carmen Carretero</p>
 					<a class="me-2" href="https://carmencarretero.com/politica-de-cookies-ue" target="blank">Política de Cookies |</a>
 					<a href="https://carmencarretero.com/textos-legales" target="blank">Política de Privacidad</a>

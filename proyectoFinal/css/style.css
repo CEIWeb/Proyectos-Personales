@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*FUENTES*/
 @font-face{
 	font-family: 'PoppinsBlack';
@@ -49,6 +56,7 @@
   --colorPrimario:#09647A;
   --colorSecundario1:#75787B;
   --colorSecundario1Trans:rgba(117,120,123,0.3); 
+  --colorSecundario1Arriba:rgba(117,120,123,0.5);
   --colorSecundario2:#1A9C8F; 
   --colorTexto:#2e3133;
 }
@@ -56,7 +64,8 @@
 /*CSS COMÚN*/
 
 *{
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body{
@@ -111,6 +120,8 @@ a:hover{
 .menu-centro p{
   font-family: 'HindSemiBold';
   font-size: 22px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -127,6 +138,8 @@ a:hover{
   border-radius: 50%;
   top: 0px;
   left: 0px;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
   transition: 0.8s;
 }
 
@@ -144,6 +157,8 @@ a:hover{
 
 nav i{
   color: var(--colorEnfasis);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -166,7 +181,7 @@ nav i:hover{
    color: var(--colorPrimario);
 }
 
-.mi-foto{
+.radio{
   border-radius: 20px;
 }
 
@@ -175,6 +190,8 @@ nav i:hover{
 }
 
 .degradado{
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--colorBasico)), color-stop(50%, var(--colorEnfasisTrans)), to(var(--colorBasico)));
+  background: -o-linear-gradient(top, var(--colorBasico), var(--colorEnfasisTrans) 50%, var(--colorBasico));
   background: linear-gradient(to bottom, var(--colorBasico), var(--colorEnfasisTrans) 50%, var(--colorBasico));
 }
 
@@ -182,19 +199,27 @@ nav i:hover{
 
 .progress {
   background: var(--colorBasico);
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   border-radius: 100px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   padding: 0 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 20px;
   width: 250px;
 }
 
 .progress-value-html {
-  animation: html 3s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
+  -webkit-animation: html 3s normal forwards;
+          animation: html 3s normal forwards;
+  -webkit-box-shadow: 0 10px 40px -10px #fff;
+          box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: #F24E1E;
   height: 16px;
@@ -202,8 +227,10 @@ nav i:hover{
 }
 
 .progress-value-css {
-  animation: css 3s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
+  -webkit-animation: css 3s normal forwards;
+          animation: css 3s normal forwards;
+  -webkit-box-shadow: 0 10px 40px -10px #fff;
+          box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: #1572B6;
   height: 16px;
@@ -211,8 +238,10 @@ nav i:hover{
 }
 
 .progress-value-js {
-  animation: js 3s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
+  -webkit-animation: js 3s normal forwards;
+          animation: js 3s normal forwards;
+  -webkit-box-shadow: 0 10px 40px -10px #fff;
+          box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: #F7DF1E;
   height: 16px;
@@ -220,8 +249,10 @@ nav i:hover{
 }
 
 .progress-value-bs {
-  animation: bs 3s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
+  -webkit-animation: bs 3s normal forwards;
+          animation: bs 3s normal forwards;
+  -webkit-box-shadow: 0 10px 40px -10px #fff;
+          box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: #563D7C;
   height: 16px;
@@ -229,8 +260,10 @@ nav i:hover{
 }
 
 .progress-value-wp {
-  animation: wp 3s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
+  -webkit-animation: wp 3s normal forwards;
+          animation: wp 3s normal forwards;
+  -webkit-box-shadow: 0 10px 40px -10px #fff;
+          box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: #1572B6;
   height: 16px;
@@ -238,8 +271,10 @@ nav i:hover{
 }
 
 .progress-value-fig {
-  animation: fig 3s normal forwards;
-  box-shadow: 0 10px 40px -10px #fff;
+  -webkit-animation: fig 3s normal forwards;
+          animation: fig 3s normal forwards;
+  -webkit-box-shadow: 0 10px 40px -10px #fff;
+          box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: #09CF83;
   height: 16px;
@@ -331,11 +366,6 @@ hr{
   background: var(--colorSecundario1Trans);
 }
 
-.foto-portfolio{
-  border-radius: 20px;
-}
-
-
 #form-contacto{
   background: var(--colorSecundario1Trans);
   border-radius: 20px;
@@ -384,7 +414,6 @@ footer p{
 }
 footer a{
   font-family: 'HindRegular';
-  font-size: 18px;
   color: var(--colorBasico);
 }
 
@@ -397,12 +426,9 @@ footer i{
 }
 
 #arriba{
-  width: 50px;
-  height: 50px;
-  background: var(--colorSecundario1);
+  background: var(--colorSecundario1Arriba);
   border-radius: 5px;
   color: var(--colorBasico);
-  font-size: 30px;
 }
 
 /*RESPONSIVE*/
@@ -474,6 +500,16 @@ footer i{
     .foto-portfolio{
       max-width: 300px;
     }
+    
+    .footer a{
+        font-size: 16px;
+    }
+    
+    #arriba{
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+    }
 
 }
 
@@ -521,11 +557,15 @@ footer i{
     }
 
     .titulo-seccion{
-      transform: skewX(-20deg);
+      -webkit-transform: skewX(-20deg);
+          -ms-transform: skewX(-20deg);
+              transform: skewX(-20deg);
     }
 
     .titulo-seccion h2{
-      transform: skewX(20deg);
+      -webkit-transform: skewX(20deg);
+          -ms-transform: skewX(20deg);
+              transform: skewX(20deg);
     }
 
      .mi-foto{
@@ -545,6 +585,19 @@ footer i{
     .foto-portfolio{
       max-width: 400px;
     }
+    
+    .footer a{
+        font-size: 16px;
+    }
+    
+     #arriba{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    
+    
 }
 
 @media screen and (min-width: 768px){
@@ -592,11 +645,15 @@ footer i{
     }
 
      .titulo-seccion{
-        transform: skewX(-20deg);
+        -webkit-transform: skewX(-20deg);
+            -ms-transform: skewX(-20deg);
+                transform: skewX(-20deg);
     }
 
     .titulo-seccion h2{
-      transform: skewX(20deg);
+      -webkit-transform: skewX(20deg);
+          -ms-transform: skewX(20deg);
+              transform: skewX(20deg);
     }
 
     .mi-foto{
@@ -616,7 +673,16 @@ footer i{
     .foto-portfolio{
       max-width: 500px;
     }
+    
+    .footer a{
+        font-size: 18px;
+    }
 
+    #arriba{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
 
 }
 
@@ -671,11 +737,15 @@ footer i{
     .titulo-seccion{
        background: var(--colorPrimario);
         color: var(--colorBasico);
-        transform: skewX(-20deg);
+        -webkit-transform: skewX(-20deg);
+            -ms-transform: skewX(-20deg);
+                transform: skewX(-20deg);
     }
 
     .titulo-seccion h2{
-      transform: skewX(20deg);
+      -webkit-transform: skewX(20deg);
+          -ms-transform: skewX(20deg);
+              transform: skewX(20deg);
     }
 
     .mi-foto{
@@ -695,15 +765,37 @@ footer i{
     .foto-portfolio{
       max-width: 500px;
     }
+    
+     .footer a{
+        font-size: 18px;
+    }
+    
+     #arriba{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+
 
 }
 
 
 /*ANIMACIONES*/
 
+@-webkit-keyframes html {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
 @keyframes html {
   0% { width: 0; }
   100% { width: 90%; }
+}
+
+@-webkit-keyframes css {
+  0% { width: 0; }
+  100% { width: 80%; }
 }
 
 @keyframes css {
@@ -711,9 +803,19 @@ footer i{
   100% { width: 80%; }
 }
 
+@-webkit-keyframes js {
+  0% { width: 0; }
+  100% { width: 50%; }
+}
+
 @keyframes js {
   0% { width: 0; }
   100% { width: 50%; }
+}
+
+@-webkit-keyframes bs {
+  0% { width: 0; }
+  100% { width: 75%; }
 }
 
 @keyframes bs {
@@ -721,9 +823,19 @@ footer i{
   100% { width: 75%; }
 }
 
+@-webkit-keyframes wp {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+
 @keyframes wp {
   0% { width: 0; }
   100% { width: 65%; }
+}
+
+@-webkit-keyframes fig {
+  0% { width: 0; }
+  100% { width: 50%; }
 }
 
 @keyframes fig {
