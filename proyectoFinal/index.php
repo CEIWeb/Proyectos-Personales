@@ -120,7 +120,7 @@
 
 						<p>Siempre tuve claro que quería entrar en el mundo del diseño y desarrollo web, que es lo que me interesa y me motiva. Es por esto que en Octubre del 2020 empezé a estudiar un máster en diseño y conceptualización web, ya que lo que había aprendido hace 10 años había quedado obsoleto y necesitaba actualizar mis conocimientos.</p>
 
-						<p>A día de hoy estoy en la recta final del máster y ya he empezado ha hacer algún trabajo por cuenta propia para seguir aprendiendo y ganar experiencia, aunque mi objetivo es poder aumentar mis conocimientos haciendo prácticas de <strong>Frontend o Fullstack</strong> en alguna empresa. Ya cuento con una web donde ofrezco mis servicios: <a href="https://carmencarretero.com/" target="blank">www.carmencarretero.com</a></p>
+						<p>A día de hoy estoy en la recta final del máster y ya he empezado a hacer algún trabajo por cuenta propia para seguir aprendiendo y ganar experiencia, aunque mi objetivo es poder aumentar mis conocimientos haciendo prácticas de <strong>Frontend o Fullstack</strong> en alguna empresa. Ya cuento con una web donde ofrezco mis servicios: <a href="https://carmencarretero.com/" target="blank">www.carmencarretero.com</a></p>
 
 						<p>Siguiendo con algo más personal, os diré que mi mayor hobbie es el deporte y que soy muy amiga de la vida saludable en general. Hablando claro, soy una de esas personas que están tan “locas” como para levantarse a las 6 de la mañana para hacer deporte <i class="fas fa-smile-beam naranja"></i>.</p>
 
@@ -217,7 +217,7 @@
 							<img class="img-fluid logo-valmet" src="rsc/img/logo-valmet.png" alt="logo Valmet ">
 						</div>
 						<div class="col-9">
-							<p class="mt-3">Mantenimiento y programación de DCS Valmet (Sistemas de Control Distribuido)</p>
+							<p class="mt-3">Mantenimiento y programación de DCS Valmet (Sistema de Control Distribuido)</p>
 						</div>
 					</div>
 					<div class="row mx-3 mx-sm-5 mx-lg-0">
@@ -323,7 +323,7 @@
 					<h4>Soltel IT Solutions</h4>
 					<p class="parrafo-grande mb-1">Octubre - 2018 a Diciembre - 2020</p>
 					<p class="parrafo-grande mt-1">Sevilla</p>
-					<p>Gestión, coordinación y supervisión de mejora y optimización, a nivel de hardware y software, de Sistemas de Control y Monitorización de los activos del cliente (Atlantica Yield); entre ellos plantas de energía Termosolar, Eólicas, Fotovoltaicas, Cogeneración, Líneas de Transmisión, desaladoras, etc.</p>
+					<p>Gestión, coordinación y supervisión de mejoras y optimización, a nivel de hardware y software, de los Sistemas de Control y Monitorización de los activos del cliente (Atlantica Yield); entre ellos plantas de energía Termosolar, Eólicas, Fotovoltaicas, Cogeneración, Líneas de Transmisión, Desaladoras, etc.</p>
 					<p class="parrafo-grande">Habilidades aplicadas al puesto:</p>
 					<div class="d-flex flex-wrap">
 						<div class="skill bg-verde parrafo-grande">
@@ -378,7 +378,7 @@
 							<h4>PVH - PV Hardware Solutions</h4>
 							<p class="parrafo-grande mb-1">Enero - 2016 a Noviembre - 2017</p>
 							<p class="parrafo-grande mt-1">Alcobendas (Madrid)</p>
-							<p>Desarrollo de software, soporte técnico y mantenimiento de SCADAS (Ignition), configuración de firewalls (Fortinet y Hirschmann), switches(Advantech y Hirschmann), conversores (Moxa), concentradores de datos (SEL), gateways (Netbiter), etc. Mantenimiento preventivo y puesta en marcha de los sistemas in situ y en remoto. Montaje, conexionado y configuración de estaciones meteorológicas (USA, México, Sudáfrica, Brasil y Panamá).</p>
+							<p>Desarrollo de software, soporte técnico y mantenimiento de SCADAS (Ignition), configuración de firewalls (Fortinet y Hirschmann), switches(Advantech y Hirschmann), conversores de medio (Moxa), concentradores de datos (SEL), gateways (Netbiter), etc. Mantenimiento preventivo y puesta en marcha de los sistemas in situ y en remoto. Montaje, conexionado y configuración de estaciones meteorológicas. Estos trabajos se realizaron en diferentes países: USA, México, Sudáfrica, Brasil y Panamá.</p>
 							<p class="parrafo-grande">Habilidades aplicadas al puesto:</p>
 							<div class="d-flex flex-wrap">
 								<div class="skill bg-naranja parrafo-grande">
@@ -425,7 +425,7 @@
 							<h4>Abengoa</h4>
 							<p class="parrafo-grande mb-1">Diciembre - 2014 a Diciembre - 2015</p>
 							<p class="parrafo-grande mt-1">Gila Bend, Arizona (Estados Unidos)</p>
-							<p>Revisión, implementación e implantación de lógica de control tanto para sistemas ya instalados como para modificaciones de diseño, elaboración de procedimientos y descripciones funcionales del sistema, administrar la aplicación PI de Osisoft (Dar de alta usuarios, crear puntos, ecuaciones, diseño de pantallas con ProcessBook, etc), gestión de repuestos, mantenimiento y resolución de incidencias en la red de comunicaciones del sistema, colaboración con el personal de control e instrumentación para detectar y resolver problemas relacionados con instrumentos instalados en campo, participación en las mejoras de planta, revisión del cableado de la red de comunicaciones y revisión de listados de instrumentos y sus conexiones.</p>
+							<p>Revisión, implementación e implantación de lógica de control tanto para sistemas ya instalados como para modificaciones de diseño, elaboración de procedimientos y descripciones funcionales del sistema, administración de la aplicación PI de Osisoft (Dar de alta usuarios, crear puntos, ecuaciones, diseño de pantallas con ProcessBook, etc), gestión de repuestos, mantenimiento y resolución de incidencias en la red de comunicaciones del sistema, colaboración con el personal de control e instrumentación para detectar y resolver problemas relacionados con instrumentos instalados en campo, participación en las mejoras de planta, revisión del cableado de la red de comunicaciones y revisión de listados de instrumentos y sus conexiones.</p>
 							<p class="parrafo-grande">Habilidades aplicadas al puesto:</p>
 							<div class="d-flex flex-wrap">
 								<div class="skill bg-verde parrafo-grande">
@@ -466,7 +466,7 @@
 							<h4>Abengoa</h4>
 							<p class="parrafo-grande mb-1">Marzo - 2012 a Enero - 2014</p>
 							<p class="parrafo-grande mt-1">Logrosán (Cáceres)</p>
-							<p>Revisiones, modificaciones, correcciones y nueva implementación de la lógica de control automático de la planta, análisis de incidencias y propuesta de soluciones para resolverlas. Soporte técnico en todo lo referente a las comunicaciones ( red industrial) y al software que controla la planta, colaboración con el departamento de control e instrumentación para detectar y resolver problemas relacionados con instrumentos instalados en campo. Descarga de datos para informes de producción. Administrar la aplicación PI de Osisoft (Dar de alta usuarios, crear puntos, ecuaciones, diseño de pantallas con ProcessBook, etc). Revisión del cableado de la red de comunicaciones y revisión de listados de instrumentos y sus conexiones.</p>
+							<p>Revisión, modificación, corrección y nueva implementación de la lógica de control automático de la planta, análisis de incidencias y propuesta de soluciones para resolverlas. Soporte técnico en todo lo referente a las comunicaciones ( red industrial) y al software que controla la planta, colaboración con el departamento de control e instrumentación para detectar y resolver problemas relacionados con instrumentos instalados en campo. Descarga de datos para informes de producción. Administración de la aplicación PI de Osisoft (Dar de alta usuarios, crear puntos, ecuaciones, diseño de pantallas con ProcessBook, etc). Revisión del cableado de la red de comunicaciones y revisión de listados de instrumentos y sus conexiones.</p>
 							<p class="parrafo-grande">Habilidades aplicadas al puesto:</p>
 							<div class="d-flex flex-wrap">		
 								<div class="skill bg-naranja parrafo-grande">
@@ -495,7 +495,7 @@
 					<h4>Nonotel - Proveedor voz IP</h4>
 					<p class="parrafo-grande mb-1">Diciembre - 2011 a Febrero - 2012 </p>
 					<p class="parrafo-grande mt-1">Huelva</p>
-					<p>Desarrollo de paginas web basadas en los lenguajes: mysql, php, html y jquery; y usando plantillas como Wordpress.</p>
+					<p>Desarrollo de paginas web basadas en los lenguajes: mysql, php, html, css y jquery; y usando el CMS Wordpress.</p>
 					<p class="parrafo-grande">Habilidades aplicadas al puesto:</p>
 					<div class="d-flex flex-wrap">
 						<div class="skill bg-naranja parrafo-grande">
@@ -587,7 +587,7 @@
 							</div>
 							<div class="col-9">
 								<h4>Ingeniería Técnica en Informática de Sistemas</h4>
-								<p class="mb-1 parrafo-grande">Escuela Superior de Ingeniería</p>
+								<p class="mb-1 parrafo-grande">Escuela Superior de Ingeniería (Huelva)</p>
 								<p class="parrafo-grande">2011</p>
 							</div>
 						</div>				
@@ -694,7 +694,7 @@
 							</div>
 							<div class="col-9">
 								<h4>Mantenimiento DCS Valmet DNA</h4>
-								<p class="mb-1 parrafo-grande">Escuela Superior de Ingeniería</p>
+								<p class="mb-1 parrafo-grande">Telvent</p>
 								<p class="parrafo-grande">2013</p>
 							</div>
 						</div>
@@ -759,7 +759,7 @@
 					   		<div class="container">
 						    	<div class="row margen-portfolio">
 						    		<div class="col-lg-5 ps-md-5 d-flex flex-column justify-content-center">
-						    			<h3 class="azul-primario">Curriculum y Portfolio Web</h3>
+						    			<h3 class="azul-primario">Currículum y Portfolio Web</h3>
 						    			<p class="azul-primario parrafo-grande">Bootstrap, HTML, CSS y JavaScript</p>
 						    		    <a class="azul-primario" href="https://carmencarreterocei.es/CV" target="blank">www.carmencarreterocei.es</a>
 						    	    	<a class="azul-primario" href="https://github.com/CEIWeb/Proyectos-Personales/tree/main/proyectoFinal" target="blank">Ver código</a>
@@ -800,9 +800,9 @@
 			<div class="row mt-5 justify-content-center">
 				<div class="col col-sm-11 col-md-10 col-lg-8 d-flex flex-column">
 					<form id="form-contacto" class="d-flex flex-column p-4 p-sm-5" name="formulario" action="" method="POST">
-						<input class="mb-4" type="text" name="nombre" value="" placeholder="Nombre" required maxlength="140" minlength="2">
-						<input class="mb-4" type="email" name="correo" value="" placeholder="correoElectronico@ejemplo.com" required>
-						<textarea class="mb-4" name="mensaje" placeholder="Cuéntame" cols="100" rows="10" required=""></textarea>
+						<input class="mb-4 ps-2" type="text" name="nombre" value="" placeholder="Nombre" required maxlength="140" minlength="2">
+						<input class="mb-4 ps-2" type="email" name="correo" value="" placeholder="correoElectronico@ejemplo.com" required>
+						<textarea class="mb-4 ps-2" name="mensaje" placeholder="Cuéntame" cols="100" rows="10" required=""></textarea>
 						<div class="mb-4 d-flex">
 							<input type="checkbox" name="confirmar" id="terminos" value="si"  required><label class="ms-3" for="terminos">He leido y acepto la <a href="https://carmencarretero.com/textos-legales" target="blank">Política de Privacidad</a>.</label>
 						</div>
