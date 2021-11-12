@@ -56,8 +56,9 @@ window.addEventListener('load',()=>{
 	//Funciones para el menú circular
 
  function abrirMenu(){
+     
 	itemsMenu.style.cssText='display:block;'
-	hamburguesa.style.cssText="transform: translate(60%, -60%);transition: 1s;";
+	hamburguesa.style.cssText="transform: translate(50%, -50%);transition: 1s;";
 	hamburguesa.innerHTML='<i class="fas fa-times text-light"></i>';
 	
 	itemPerfil.style.cssText="top: 0%; right:0%; transform: translate(-150px, -10px)";
@@ -89,45 +90,6 @@ window.addEventListener('load',()=>{
 
 	overlay.style.cssText="width:0%; height:0%; transition-delay:1.5s";
  }
-
-	// function abrirMenu(){		
-
-	// 	menu.innerHTML = iconoCerrar;
-
-	// 	document.querySelector(".menu-perfil").style.cssText = "top: -100px; left: 0px; transform: translate(0%, 0%);";
-
-	// 	document.querySelector(".menu-experiencia").style.cssText = "top: 0px; left: 100px; transform: translate(0%, -50%);";
-
-	// 	document.querySelector(".menu-formacion").style.cssText = "top: 115px; left: 110px; transform: translate(-50%, -50%);";
-
-	// 	document.querySelector(".menu-portfolio").style.cssText = "top: 115px; left: -110px; transform: translate(50%, -50%);";
-
-	// 	document.querySelector(".menu-contacto").style.cssText = "top: 0px; left:-100px; transform: translate(0%, -50%);";
-
-	// 	menu.setAttribute("onclick", "cerrarMenu()");
-
-	// }
-
-
-
-	// function cerrarMenu(){		
-
-	// 	menu.innerHTML = iconoAbrir;
-
-	// 	document.querySelector(".menu-perfil").style.cssText = "top: 0px; left: 0px; transform: translate(0%, 0%);";
-
-	// 	document.querySelector(".menu-experiencia").style.cssText = "top: 0px; left: 0px; transform: translate(0%, 0%);";
-
-	// 	document.querySelector(".menu-formacion").style.cssText = "top: 0px; left: 0px; transform: translate(0%, 0%);";
-
-	// 	document.querySelector(".menu-portfolio").style.cssText = "top: 0px; left: 0px; transform: translate(0%, 0%);";
-
-	// 	document.querySelector(".menu-contacto").style.cssText = "top: 0px; left:0px; transform: translate(0%, 0%);";
-
-	// 	menu.setAttribute("onclick", "abrirMenu()");
-
-	// }
-
 
 
 	//Funciones para el desplegable

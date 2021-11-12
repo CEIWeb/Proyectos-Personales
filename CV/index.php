@@ -85,7 +85,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 
 
 
@@ -1520,9 +1520,9 @@
 
 						    			<p class="azul-primario parrafo-grande">Bootstrap, HTML, CSS y JavaScript</p>
 
-						    		    <a class="azul-primario" href="https://cv.carmencarretero.com" target="blank">www.CV.carmencarretero.com</a>
+						    		    <a class="azul-primario" href="https://cv.carmencarretero.com" target="blank">www.cv.carmencarretero.com</a>
 
-						    	    	<a class="azul-primario" href="https://github.com/CEIWeb/Proyectos-Personales/tree/main/proyectoFinal" target="blank">Ver código</a>
+						    	    	<a class="azul-primario" href="https://github.com/CEIWeb/Proyectos-Personales/tree/main/CV" target="blank">Ver código</a>
 
 						    		</div>
 
